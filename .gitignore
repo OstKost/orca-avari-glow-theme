@@ -8,3 +8,6 @@ design/
 example-*.jpg
 orca-theme-preview-*.jpg
 terminal-custom-themes-*.js
+
+# Separate Git repository for the Orca catalog plugin
+avari-tweak-plugin/
