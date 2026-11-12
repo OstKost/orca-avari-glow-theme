@@ -1,0 +1,10 @@
+.DS_Store
+.agents/
+.gemini/
+avari-orca-tweak/avari-orca-tweak
+# Local references and exploratory material
+PLAN.md
+design/
+example-*.jpg
+orca-theme-preview-*.jpg
+terminal-custom-themes-*.js

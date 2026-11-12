@@ -1,0 +1,27 @@
+{
+  "manifestVersion": 2,
+  "id": "avari-glow-theme",
+  "name": "Avari Glow",
+  "version": "0.1.0",
+  "description": "Avari Glow dark theme inspired by @SIREN.UIX",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "themes": [
+      {
+        "id": "avari-glow-theme-dark",
+        "title": "Avari Glow",
+        "path": "themes/avari-glow.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "avari-glow-terminal",
+        "title": "Avari Glow",
+        "path": "terminal/avari-glow.json"
+      }
+    ]
+  }
+}

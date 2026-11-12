@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "base": "dark",
+  "tokens": {
+    "--background": "#0D0F14",
+    "--foreground": "#E2E8F0",
+    "--primary": "#3B82F6",
+    "--primary-foreground": "#FFFFFF",
+    "--border": "#242838",
+    "--worktree-sidebar": "#0B0D12",
+    "--worktree-sidebar-border": "#1B1E2B",
+    "--editor-surface": "#0D0F14",
+    "--diff-added-background": "rgba(16,185,129,0.16)",
+    "--diff-removed-background": "rgba(239,68,68,0.18)",
+    "--card": "#12141D",
+    "--card-foreground": "#E2E8F0",
+    "--popover": "#151824",
+    "--popover-foreground": "#E2E8F0",
+    "--secondary": "#191D2A",
+    "--secondary-foreground": "#E2E8F0",
+    "--muted": "#161924",
+    "--muted-foreground": "#94A3B8",
+    "--accent": "#1A2234",
+    "--accent-foreground": "#E2E8F0",
+    "--input": "#242838",
+    "--ring": "#3B82F6",
+    "--chart-1": "#3B82F6",
+    "--chart-2": "#8B5CF6",
+    "--chart-3": "#F59E0B",
+    "--chart-4": "#10B981",
+    "--chart-5": "#EC4899",
+    "--sidebar": "#12141D",
+    "--sidebar-foreground": "#E2E8F0",
+    "--sidebar-primary": "#3B82F6",
+    "--sidebar-primary-foreground": "#FFFFFF",
+    "--sidebar-accent": "#1A2234",
+    "--sidebar-accent-foreground": "#E2E8F0",
+    "--sidebar-border": "#242838",
+    "--sidebar-ring": "#3B82F6",
+    "--worktree-sidebar-foreground": "#CBD5E1",
+    "--worktree-sidebar-accent": "#181C28",
+    "--worktree-sidebar-accent-foreground": "#E2E8F0",
+    "--worktree-sidebar-ring": "#3B82F6",
+    "--worktree-sidebar-active": "#1A2234",
+    "--worktree-sidebar-active-border": "#3B82F6",
+    "--host-badge": "#302819",
+    "--host-badge-foreground": "#FBBF24",
+    "--tab-bar": "#0D0F14",
+    "--tab-active": "#1C202C",
+    "--tab-active-foreground": "#FFFFFF",
+    "--tab-active-indicator": "#3B82F6",
+    "--tab-inactive": "#141722",
+    "--tab-inactive-foreground": "#94A3B8",
+    "--split-divider": "#242838",
+    "--split-divider-hover": "#3B82F6",
+    "--chat-user-message": "#1A2234",
+    "--chat-bold-foreground": "#FFFFFF",
+    "--chat-muted-foreground": "#94A3B8",
+    "--chat-inline-code": "#1A2234",
+    "--chat-inline-code-foreground": "#A78BFA",
+    "--chat-code-block": "#12151F",
+    "--chat-selection": "#1D4ED8",
+    "--chat-selection-foreground": "#FFFFFF",
+    "--text-link": "#60A5FA",
+    "--diff-added": "#10B981",
+    "--diff-added-emphasis": "rgba(16,185,129,0.3)",
+    "--diff-added-gutter": "#10B981",
+    "--diff-removed": "#EF4444",
+    "--diff-removed-emphasis": "rgba(239,68,68,0.3)",
+    "--diff-removed-gutter": "#EF4444"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#64748B",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#3B82F6"
+      }
+    },
+    {
+      "scope": "storage",
+      "settings": {
+        "foreground": "#3B82F6"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#10B981"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#8B5CF6"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#F59E0B"
+      }
+    }
+  ]
+}
