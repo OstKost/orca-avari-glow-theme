@@ -9,7 +9,8 @@
 - `aurora`: `[data-worktree-card-surface]` и `[data-worktree-card-active]` — поверхность и активное состояние карточки.
 - `panels`: `.titlebar`, `.titlebar-left`, `.workspace-sidebar-seam`, `[data-sidebar-resize-handle]`, `[data-native-chat-root]`, `[data-native-chat-rail]`, `[data-native-chat-scroll]` и контейнеры боковых панелей. Границы элементов управления намеренно не отключаются глобально.
 - `composer`: `[class~="group/composer"]` — рамка и свечение поля ввода.
-- `avari-tilt.js`: те же поверхности вкладок и карточек, а также подсветка боковых панелей. При изменении селекторов проверьте CSS и скрипт вместе.
+- `chat-motion` и `chat-style`: `[data-native-chat-scroll]`, `.bg-chat-user-surface`, `[data-native-chat-message-id]` и `[data-native-chat-code-block]`. Признак отправки основан на внутренней разметке строки статуса Orca 1.4.257; проверьте его при обновлении.
+- `avari-tilt.js`: поверхности вкладок, карточек и сообщений пользователя, а также подсветка боковых панелей. При изменении селекторов проверьте CSS и скрипт вместе.
 - `loader.go`: расположение `index.html`, ссылка на CSS и возможность вставить локальный скрипт зависят от упаковки Orca. Утилита отказывается менять неподдерживаемую структуру; не обходите эти проверки без отдельной проверки отката.
 
 ## Порядок проверки

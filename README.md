@@ -61,14 +61,16 @@ go build -o avari-orca-tweak .
 Для командного режима:
 
 ```sh
-./avari-orca-tweak apply --features tabs,aurora,panels,composer
+./avari-orca-tweak apply --features tabs,aurora,panels,composer,chat-motion,chat-style
 ./avari-orca-tweak status
 ./avari-orca-tweak revert
 ```
 
-Доступные группы: `tabs` — вкладки, `aurora` — активная рабочая область, `panels` — панели и границы, `composer` — поле ввода, `badges` и `chips` — мелкие элементы. `apply` заменяет текущий набор выбранным. Для нестандартного пути используйте, например, `--app /путь/Orca.app` после команды.
+Доступные группы: `tabs` — вкладки, `aurora` — активная рабочая область, `panels` — панели и границы, `composer` — поле ввода, `badges` и `chips` — мелкие элементы, `chat-motion` — плавное появление сообщений и переходы их оформления, `chat-style` — оформление сообщений и блоков кода. `apply` заменяет текущий набор выбранным. Для нестандартного пути используйте, например, `--app /путь/Orca.app` после команды.
 
 ### Иконка Dock
+
+<img src="docs/images/avari-dock-icon.png" alt="Иконка Avari Glow: разноцветная косатка на тёмном фоне" width="180">
 
 В TUI доступны установка и восстановление иконки; те же действия можно выполнить командами `./avari-orca-tweak icon-apply` и `./avari-orca-tweak icon-revert`. Закройте Orca перед изменением и перезапустите после него. macOS может некоторое время показывать старую иконку из кэша.
 
