@@ -335,10 +335,8 @@ button[class*="suggestion"] { border-radius: 9999px; }
 }
 @media (prefers-reduced-motion: no-preference) {
   @media (hover: hover) and (pointer: fine) {
-    [data-native-chat-scroll] :has(> .bg-chat-user-surface) { perspective: 500px; }
     [data-native-chat-scroll] .bg-chat-user-surface {
-      rotate: var(--avari-tilt-axis, 1 0 0) var(--avari-tilt-angle, 0deg);
-      transition: rotate 200ms ease-out, border-color 220ms ease, box-shadow 220ms ease, filter 180ms ease;
+      transition: border-color 220ms ease, box-shadow 220ms ease, filter 180ms ease;
     }
     [data-native-chat-scroll] .bg-chat-user-surface:hover { filter: brightness(1.08); }
   }
